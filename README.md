@@ -1,2 +1,2 @@
 # Doctor-Dashboard
-User-friendly Doctor Dashboard for HealthPredict.
+User-friendly Doctor Dashboard
