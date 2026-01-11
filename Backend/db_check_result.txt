@@ -1,0 +1,28 @@
+Connected!
+Collections: ["users","riskpredictions","usersessions","usermedications","healthmetrics","userdevices","medicalhistories","userprofiles","user_appointments","doctors","doctor_profile","blooddonors"]
+Found user_appointments collection.
+Sample user_appointment: {
+  "_id": "6963af9f070bb88902d9f021",
+  "appointment_id": 1768141584,
+  "user_id": 622412,
+  "doctor_id": "69578b0436ce57af1a3a8777",
+  "appointment_date_time": "2026-01-12T04:30:00.000Z",
+  "duration_mins": 30,
+  "appointment_type": "Hospital Visit",
+  "status": "Scheduled",
+  "symptoms": "fever",
+  "notes": "Symptoms: fever\nType: Hospital Visit\nPatient: SaiRaj, Age: 26, Gender: Male, Contact: 9949452898, Email: srikanthnamoju07@gmail.com, Payment: Google Pay, Transaction: TXN_1768140702123_TEST",
+  "token_number": 9,
+  "consultation_fee": 249,
+  "payment_status": "Paid",
+  "payment_method": "Google Pay",
+  "transaction_id": "TXN_1768140702123_TEST",
+  "amount_paid": 249,
+  "payment_date": "2026-01-11T14:11:42.924Z",
+  "prescription_given": false,
+  "expires_at": "2026-01-14T14:11:42.909Z",
+  "confirmed_at": "2026-01-11T14:11:43.084Z",
+  "last_synced": "2026-01-11T14:11:43.086Z",
+  "created_at": "2026-01-11T14:11:43.086Z",
+  "__v": 0
+}
