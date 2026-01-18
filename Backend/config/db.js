@@ -8,20 +8,11 @@ const userAppURI = process.env.USER_APP_DB_URI || 'mongodb://127.0.0.1:27017/Hea
 const dashboardURI = process.env.DASHBOARD_DB_URI || 'mongodb://127.0.0.1:27017/HealthPredict_DoctorDashboard';
 
 // Create separate connections
-const authConnection = mongoose.createConnection(authURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+const authConnection = mongoose.createConnection(authURI);
 
-const dashboardConnection = mongoose.createConnection(dashboardURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+const dashboardConnection = mongoose.createConnection(dashboardURI);
 
-const userAppConnection = mongoose.createConnection(userAppURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+const userAppConnection = mongoose.createConnection(userAppURI);
 
 authConnection.on('connected', () => {
     console.log('MongoDB connected to Auth DB (HealthPredict_DoctorRegistration)');
